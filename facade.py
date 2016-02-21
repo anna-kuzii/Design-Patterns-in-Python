@@ -1,13 +1,16 @@
 # Complex parts
 class CPU:
+    def __init__(self): pass
     def freeze(self): pass
     def jump(self, position): pass
     def execute(self): pass
 
 class Memory:
+    def __init__(self): pass
     def load(self, position, data): pass
 
 class HardDrive:
+    def __init__(self): pass
     def read(self, lba, size): pass
 
 # Facade
